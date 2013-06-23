@@ -1,0 +1,156 @@
+@charset "UTF-8";
+#outerWrapper {
+	margin: 50px auto;
+	width: 800px;
+	padding: 20px;
+	background: white;
+	border-radius: 25px;
+}
+body {
+	background: #000 url(../images/tpa_bg.jpg) repeat-x center top;
+	font: 12px/18px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#header {
+	width: 100%;
+	text-align: center;
+}
+#content {
+	width: 100%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-top: 20px;
+}
+#footer {
+	width: 100%;
+}
+#footer p {
+	font-size: 10px;
+	color: #000;
+	text-align: center;
+}
+#content h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.imageRight {
+	float: right;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+div#nav {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: white;
+	width: 740px;
+	font-size: 30px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+div#nav ul {
+	margin: auto;
+	width: 688px;
+	list-style: none;
+}
+div#nav ul li {
+	float: left;
+	width: 170px;
+	text-align: center;
+}
+div#nav ul li a {
+	line-height: 40px;
+	display: block;
+	color: white;
+	background-color: #00F;
+	text-decoration: none;
+}
+div#nav ul li a:hover {
+	color: #FFF;
+	background-color: #F70816;
+}
+#nav h1 {
+	color: rgba(0,0,255,1);
+	text-align: center;
+	font-size: 40px;
+}
+table {
+	margin: 0 auto;	
+}
+table td {
+	padding: 5px;
+	font-size: 18px;	
+}
+form #submit {
+	font-size: 18px;
+	margin: 10px auto;
+	padding: 5px;
+	text-align: center;
+}
+#content form p {
+	text-align: center;
+}
+
+/* Upload */
+#filedrag {
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 1em 0;
+	margin: 1em 0;
+	color: #555;
+	border: 2px dashed #555;
+	border-radius: 7px;
+	cursor: default;
+}
+
+#filedrag.hover {
+	color: #f00;
+	border-color: #f00;
+	border-style: solid;
+	box-shadow: inset 0 3px 4px #888;
+}
+
+img {
+	max-width: 100%;
+}
+
+pre {
+	width: 95%;
+	height: 8em;
+	font-family: monospace;
+	font-size: 0.9em;
+	padding: 1px 2px;
+	margin: 0 0 1em auto;
+	border: 1px inset #666;
+	background-color: #eee;
+	overflow: auto;
+}
+
+#messages {
+	padding: 0 10px;
+	margin: 1em 0;
+	border: 1px solid #999;
+}
+
+#progress p {
+	display: block;
+	width: 240px;
+	padding: 2px 5px;
+	margin: 2px 0;
+	border: 1px inset #446;
+	border-radius: 5px;
+	background: #eee url("../images/progress.png") 100% 0 repeat-y;
+}
+
+#progress p.success {
+	background: #0c0 none 0 0 no-repeat;
+}
+
+#progress p.failed {
+	background: #c00 none 0 0 no-repeat;
+}
+
+/* Modify */
+canvas {
+        border: 1px solid #9C9898;
+}
+#container {
+	margin: 0 auto;
+	width: 640px;
+}
